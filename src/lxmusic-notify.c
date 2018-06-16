@@ -25,6 +25,7 @@
 #  include <config.h>
 #endif
 
+#undef HAVE_LIBNOTIFY
 #if HAVE_LIBNOTIFY
 #include <libnotify/notify.h>
 #ifndef NOTIFY_CHECK_VERSION
